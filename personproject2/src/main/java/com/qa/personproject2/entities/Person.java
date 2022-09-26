@@ -1,7 +1,9 @@
 package com.qa.personproject2.entities;
+import javax.validation.Valid;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
+
 
 import org.springframework.stereotype.Indexed;
 
