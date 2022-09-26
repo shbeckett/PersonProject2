@@ -21,6 +21,11 @@ public class PersonController {
 	public Person getPerson(@PathVariable int id){
         return findPersonById(id);
     }
+    
+    @GetMapping("/testing")
+    public void sayHi(){
+        
+    }
     @GetMapping("/")
 	public ArrayList<Person> getPeople(){
         return people;
